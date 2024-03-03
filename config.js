@@ -3,37 +3,37 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
-global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
+global.owner = process.env.OWNER_NUMBER.split("null,94787843032")
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://isurumongo:isurumongo1@cluster0.ikguzro.mongodb.net/"
 global.port= process.env.PORT || 5000
 global.email = 'sam@sec.live'
-global.github = 'https://github.com/prabathLK/PRABATH-MD'
+global.github = 'https://github.com/MrIsuru/PRABATH_MD-OLD'
 global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/' // add your username
-global.devs = '94762280384';
-global.website = 'https://github.com/prabathLK/PRABATH-MD' //wa.me/+94762280384
+global.devs = '94766632281';
+global.website = 'https://github.com/MrIsuru/PRABATH_MD-OLD' //wa.me/+94762280384
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/H062oEI.jpeg'
 module.exports = {
   OPENAI_API_KEY:process.env.OPENAI_API_KEY || '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',
   botname: process.env.BOT_NAME || 'PRABATH-MD',
   dl_limit: process.env.DL_SIZE || '300',
   art: process.env.AUTO_RESTART || 'true',
-  sudo: process.env.SUDO || '94762280384',
+  sudo: process.env.SUDO || '94766632281',
   alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg',
-  alivemsj: process.env.ALIVE_MSJ || '*POWERD BY PRABATH-MD* 🎊',
-  ownername:process.env.OWNER_NAME || 'PRABATH',
-  sessionName: process.env.SESSION_ID || 'PUT-HERE',
+  alivemsj: process.env.ALIVE_MSJ || '*HEY, IAM ALIVE NOW !* 🎊',
+  ownername:process.env.OWNER_NAME || 'Mr Isuru',
+  sessionName: process.env.SESSION_ID || 'PRABATH-MD_1xdtuyGA',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
   packname: process.env.PACK_INFO.split(";")[1] || 'Name',
-  autoreaction: process.env.AUTO_REACTION || 'off',
+  autoreaction: process.env.AUTO_REACTION || 'on',
   antibadword : process.env.ANTI_BAD_WORD || 'fuck,huth,fucking,huththa,huththo,hukanna,fucked,pakaya,pako,ponnaya,ponnayo,kariya,kariyo,huththaa,hutta',
   alwaysonline: process.env.ALWAYS_ONLINE || 'true',
   antifake : process.env.FAKE_COUNTRY_CODE || '',
   readmessage: process.env.READ_MESSAGE || true,
   HANDLERS: process.env.PREFIX || ['.'],
   warncount : process.env.WARN_COUNT || 3,
-  disablepm: process.env.DISABLE_PM || "flase",
+  disablepm: process.env.DISABLE_PM || "true",
   levelupmessage: process.env.LEVEL_UP_MESSAGE || 'false',
   antilink: process.env.ANTILINK_VALUES || 'chat.whatsapp.com',
   antilinkaction: process.env.ANTILINK_ACTION || 'remove',
